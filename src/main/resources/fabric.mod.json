@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod2",
+	"version": "${version}",
+	"name": "Tutorial Mod 2",
+	"description": "Tutorial mod for self learning",
+	"authors": [
+		"Stelle06"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lucasmakinen.tutorialmod2.TutorialMod2"
+		],
+		"fabric-datagen": [
+			"net.lucasmakinen.tutorialmod2.TutorialMod2DataGenerator"
+		],
+		"Client": [
+			"net.lucasmakinen.tutorialmod2.TutorialMod2Client"
+		]
+	},
+	"mixins": [
+		"tutorialmod2.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
