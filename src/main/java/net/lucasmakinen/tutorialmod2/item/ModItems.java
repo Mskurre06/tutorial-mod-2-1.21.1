@@ -20,7 +20,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        TutorialMod2.LOGGER.info("Registering Mod Items For" + TutorialMod2.MOD_ID);
+        TutorialMod2.LOGGER.info("Registering Mod Items For " + TutorialMod2.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);

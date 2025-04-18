@@ -1,4 +1,7 @@
 {
   "item.tutorialmod2.pink_garnet": "Pink Garnet",
-  "item.tutorialmod2.raw_pink_garnet": "Raw Pink Garnet"
+  "item.tutorialmod2.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.tutorialmod2.pink_garnet_block": "Block of Pink Garnet",
+  "block.tutorialmod2.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
